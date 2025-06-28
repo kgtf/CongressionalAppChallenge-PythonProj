@@ -1,0 +1,5 @@
+# Use UnityYAMLMerge for merging scene/prefab/text-based assets
+*.unity merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.asset merge=unityyamlmerge
+*.meta merge=unityyamlmerge
