@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_Texts_it
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: 177774c7d205e5744baf297c0d447072, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 66424135680
+    m_Localized: Paese residente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383560
+    m_Localized: Albania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383561
+    m_Localized: Andorra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383562
+    m_Localized: Armenia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383563
+    m_Localized: Austria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383564
+    m_Localized: Azerbaigian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383565
+    m_Localized: Bielorussia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383566
+    m_Localized: Belgio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383567
+    m_Localized: Bosnia ed Erzegovina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577856
+    m_Localized: Bulgaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577857
+    m_Localized: Croazia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577858
+    m_Localized: Cipro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577859
+    m_Localized: Cechia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577860
+    m_Localized: Danimarca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577861
+    m_Localized: Estonia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577862
+    m_Localized: Finlandia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577863
+    m_Localized: Francia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577864
+    m_Localized: Georgia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577865
+    m_Localized: Germania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577866
+    m_Localized: Grecia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577867
+    m_Localized: Ungheria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577868
+    m_Localized: Islanda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577869
+    m_Localized: Irlanda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577870
+    m_Localized: Italia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577871
+    m_Localized: Kazakistan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577872
+    m_Localized: Kosovo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577873
+    m_Localized: Lettonia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577874
+    m_Localized: Liechtenstein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577875
+    m_Localized: Lituania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577876
+    m_Localized: Lussemburgo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577877
+    m_Localized: Malta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577879
+    m_Localized: Monaco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577880
+    m_Localized: Montenegro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577881
+    m_Localized: Paesi Bassi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577882
+    m_Localized: Macedonia del Nord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577883
+    m_Localized: Norvegia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772160
+    m_Localized: Polonia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772161
+    m_Localized: Portogallo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772162
+    m_Localized: Romania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772163
+    m_Localized: Russia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772164
+    m_Localized: San Marino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772165
+    m_Localized: Serbia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772166
+    m_Localized: Slovacchia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772167
+    m_Localized: Slovenia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772168
+    m_Localized: Spagna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772169
+    m_Localized: Svezia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772170
+    m_Localized: Svizzera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772171
+    m_Localized: Tacchino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772172
+    m_Localized: Ucraina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772173
+    m_Localized: Regno Unito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772174
+    m_Localized: Islam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772175
+    m_Localized: cattolico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823040
+    m_Localized: Seleziona Religione
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823041
+    m_Localized: Temperatura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823042
+    m_Localized: "Urbanit\xE0 (%)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823043
+    m_Localized: Distanza (km)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823044
+    m_Localized: Invia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823045
+    m_Localized: Caldo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823046
+    m_Localized: Moderare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823047
+    m_Localized: Freddo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130793017344
+    m_Localized: Seleziona le tue preferenze di seguito per trovare i paesi migliori
+      per il reinsediamento in base a clima, cultura, costo della vita e altro ancora.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130793017345
+    m_Localized: Preferenze per il reinsediamento dei rifugiati
+    m_Metadata:
+      m_Items: []
+  - m_Id: 655850627215360
+    m_Localized: cristianesimo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 656712556687360
+    m_Localized: Moldavia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086924152832
+    m_Localized: Seleziona lingua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086945124352
+    m_Localized: Inglese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086945124353
+    m_Localized: bulgaro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086945124354
+    m_Localized: catalano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086945124355
+    m_Localized: ceco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318656
+    m_Localized: danese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318657
+    m_Localized: Olandese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318658
+    m_Localized: francese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318659
+    m_Localized: tedesco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318660
+    m_Localized: greco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318661
+    m_Localized: ungherese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318662
+    m_Localized: Italiano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318663
+    m_Localized: Polacco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318664
+    m_Localized: portoghese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318665
+    m_Localized: rumeno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318666
+    m_Localized: russo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318667
+    m_Localized: spagnolo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318668
+    m_Localized: svedese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3246634084978688
+    m_Localized: Benvenuto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3975769477427200
+    m_Localized: Informazioni sul paese selezionato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996827202957314
+    m_Localized: Distanza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996827202957315
+    m_Localized: "Urbanit\xE0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3998036974448640
+    m_Localized: Paese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3998036991225856
+    m_Localized: Lingua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3998036995420160
+    m_Localized: Religione
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4002147342036992
+    m_Localized: serbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4319164972478464
+    m_Localized: '|'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4322348759592960
+    m_Localized: armeno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4324183075532800
+    m_Localized: ha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4324183075532801
+    m_Localized: un
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4324183075532802
+    m_Localized: punto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4324183075532803
+    m_Localized: Di
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4334128114249728
+    m_Localized: Trova una nuova vita
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20909793336700928
+    m_Localized: ucraino
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

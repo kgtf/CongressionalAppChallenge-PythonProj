@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_Texts_cs
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: cs
+  m_SharedData: {fileID: 11400000, guid: 177774c7d205e5744baf297c0d447072, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 66424135680
+    m_Localized: "Zem\u011B bydli\u0161t\u011B"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383560
+    m_Localized: "Alb\xE1nie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383561
+    m_Localized: Andorra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383562
+    m_Localized: "Arm\xE9nie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383563
+    m_Localized: Rakousko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383564
+    m_Localized: "\xC1zerbajd\u017E\xE1n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383565
+    m_Localized: "B\u011Blorusko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383566
+    m_Localized: Belgie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383567
+    m_Localized: Bosna a Hercegovina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577856
+    m_Localized: Bulharsko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577857
+    m_Localized: Chorvatsko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577858
+    m_Localized: Kypr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577859
+    m_Localized: "\u010Cesko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577860
+    m_Localized: "D\xE1nsko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577861
+    m_Localized: Estonsko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577862
+    m_Localized: Finsko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577863
+    m_Localized: Francie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577864
+    m_Localized: Gruzie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577865
+    m_Localized: "N\u011Bmecko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577866
+    m_Localized: "\u0158ecko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577867
+    m_Localized: "Ma\u010Farsko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577868
+    m_Localized: Island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577869
+    m_Localized: Irsko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577870
+    m_Localized: "It\xE1lie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577871
+    m_Localized: "Kazachst\xE1n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577872
+    m_Localized: Kosovo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577873
+    m_Localized: "Loty\u0161sko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577874
+    m_Localized: "Lichten\u0161tejnsko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577875
+    m_Localized: Litva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577876
+    m_Localized: Lucembursko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577877
+    m_Localized: Malta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577879
+    m_Localized: Monako
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577880
+    m_Localized: "\u010Cern\xE1 Hora"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577881
+    m_Localized: "Nizozem\xED"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577882
+    m_Localized: "Severn\xED Makedonie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577883
+    m_Localized: Norsko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772160
+    m_Localized: Polsko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772161
+    m_Localized: Portugalsko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772162
+    m_Localized: Rumunsko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772163
+    m_Localized: Rusko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772164
+    m_Localized: San Marino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772165
+    m_Localized: Srbsko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772166
+    m_Localized: Slovensko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772167
+    m_Localized: Slovinsko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772168
+    m_Localized: "\u0160pan\u011Blsko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772169
+    m_Localized: "\u0160v\xE9dsko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772170
+    m_Localized: "\u0160v\xFDcarsko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772171
+    m_Localized: Turecko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772172
+    m_Localized: Ukrajina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772173
+    m_Localized: "Spojen\xE9 kr\xE1lovstv\xED"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772174
+    m_Localized: "isl\xE1m"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772175
+    m_Localized: "katol\xEDk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823040
+    m_Localized: "Vyberte N\xE1bo\u017Eenstv\xED"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823041
+    m_Localized: Teplota
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823042
+    m_Localized: Urbanismus (%)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823043
+    m_Localized: "vzd\xE1lenost (km)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823044
+    m_Localized: "P\u0159edlo\u017Eit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823045
+    m_Localized: "Hork\xFD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823046
+    m_Localized: "M\xEDrn\xFD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823047
+    m_Localized: "Studen\xFD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130793017344
+    m_Localized: "N\xED\u017Ee vyberte sv\xE9 preference a najd\u011Bte nejlep\u0161\xED
+      zem\u011B pro p\u0159es\xEDdlen\xED na z\xE1klad\u011B klimatu, kultury, \u017Eivotn\xEDch
+      n\xE1klad\u016F a dal\u0161\xEDch."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130793017345
+    m_Localized: "Preference pro p\u0159es\xEDdlen\xED uprchl\xEDk\u016F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 655850627215360
+    m_Localized: "k\u0159es\u0165anstv\xED"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 656712556687360
+    m_Localized: Moldavsko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086924152832
+    m_Localized: Vyberte Jazyk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086945124352
+    m_Localized: "angli\u010Dtina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086945124353
+    m_Localized: "bulharsk\xFD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086945124354
+    m_Localized: "katal\xE1n\u0161tina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086945124355
+    m_Localized: "\u010De\u0161tina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318656
+    m_Localized: "d\xE1n\u0161tina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318657
+    m_Localized: "holandsk\xFD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318658
+    m_Localized: "francouz\u0161tina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318659
+    m_Localized: "N\u011Bmec"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318660
+    m_Localized: "\u0159eck\xFD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318661
+    m_Localized: "ma\u010Farsk\xFD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318662
+    m_Localized: "ital\u0161tina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318663
+    m_Localized: "pol\u0161tina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318664
+    m_Localized: "portugal\u0161tina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318665
+    m_Localized: "rumun\u0161tina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318666
+    m_Localized: "ru\u0161tina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318667
+    m_Localized: "\u0161pan\u011Bl\u0161tina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318668
+    m_Localized: "\u0161v\xE9dsk\xFD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3246634084978688
+    m_Localized: "V\xEDtejte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3975769477427200
+    m_Localized: "Informace o vybran\xE9 zemi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996827202957314
+    m_Localized: "Vzd\xE1lenost"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996827202957315
+    m_Localized: Urbanismus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3998036974448640
+    m_Localized: "Zem\u011B"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3998036991225856
+    m_Localized: Jazyk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3998036995420160
+    m_Localized: "N\xE1bo\u017Eenstv\xED"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4002147342036992
+    m_Localized: "srb\u0161tina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4319164972478464
+    m_Localized: '|'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4322348759592960
+    m_Localized: "arm\xE9nsk\xFD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4324183075532800
+    m_Localized: "m\xE1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4324183075532801
+    m_Localized: jeden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4324183075532802
+    m_Localized: "sk\xF3re"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4324183075532803
+    m_Localized: z
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4334128114249728
+    m_Localized: "Naj\xEDt nov\xFD \u017Eivot"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20909793336700928
+    m_Localized: "ukrajin\u0161tina"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_Texts_sv
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: sv
+  m_SharedData: {fileID: 11400000, guid: 177774c7d205e5744baf297c0d447072, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 66424135680
+    m_Localized: Bosatt land
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383560
+    m_Localized: Albanien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383561
+    m_Localized: Andorra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383562
+    m_Localized: Armenien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383563
+    m_Localized: "\xD6sterrike"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383564
+    m_Localized: Azerbajdzjan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383565
+    m_Localized: Belarus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383566
+    m_Localized: Belgien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94047383567
+    m_Localized: Bosnien och Hercegovina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577856
+    m_Localized: Bulgarien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577857
+    m_Localized: Kroatien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577858
+    m_Localized: Cypern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577859
+    m_Localized: Tjeckien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577860
+    m_Localized: Danmark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577861
+    m_Localized: Estland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577862
+    m_Localized: Finland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577863
+    m_Localized: Frankrike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577864
+    m_Localized: Georgien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577865
+    m_Localized: Tyskland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577866
+    m_Localized: Grekland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577867
+    m_Localized: Ungern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577868
+    m_Localized: Island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577869
+    m_Localized: Irland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577870
+    m_Localized: Italien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577871
+    m_Localized: Kazakstan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577872
+    m_Localized: Kosovo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577873
+    m_Localized: Lettland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577874
+    m_Localized: Liechtenstein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577875
+    m_Localized: Litauen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577876
+    m_Localized: Luxemburg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577877
+    m_Localized: Malta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577879
+    m_Localized: Monaco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577880
+    m_Localized: Montenegro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577881
+    m_Localized: "Nederl\xE4nderna"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577882
+    m_Localized: Nordmakedonien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94051577883
+    m_Localized: Norge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772160
+    m_Localized: Polen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772161
+    m_Localized: Portugal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772162
+    m_Localized: "Rum\xE4nien"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772163
+    m_Localized: Ryssland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772164
+    m_Localized: San Marino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772165
+    m_Localized: Serbien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772166
+    m_Localized: Slovakien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772167
+    m_Localized: Slovenien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772168
+    m_Localized: Spanien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772169
+    m_Localized: Sverige
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772170
+    m_Localized: Schweiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772171
+    m_Localized: Turkiet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772172
+    m_Localized: Ukraina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772173
+    m_Localized: Storbritannien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772174
+    m_Localized: Islam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94055772175
+    m_Localized: katolik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823040
+    m_Localized: "V\xE4lj Religion"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823041
+    m_Localized: Temperatur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823042
+    m_Localized: Urbanitet (%)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823043
+    m_Localized: "Avst\xE5nd (km)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823044
+    m_Localized: "\xD6verl\xE4mna"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823045
+    m_Localized: Varm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823046
+    m_Localized: "M\xE5ttlig"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130788823047
+    m_Localized: Kall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130793017344
+    m_Localized: "V\xE4lj dina preferenser nedan f\xF6r att hitta de b\xE4sta l\xE4nderna
+      f\xF6r vidarebos\xE4ttning baserat p\xE5 klimat, kultur, levnadskostnader och
+      mer."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2130793017345
+    m_Localized: "Inst\xE4llningar f\xF6r vidarebos\xE4ttning av flyktingar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 655850627215360
+    m_Localized: Kristendomen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 656712556687360
+    m_Localized: Moldavien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086924152832
+    m_Localized: "V\xE4lj Spr\xE5k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086945124352
+    m_Localized: engelska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086945124353
+    m_Localized: bulgariska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086945124354
+    m_Localized: katalanska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086945124355
+    m_Localized: tjeckiska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318656
+    m_Localized: danska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318657
+    m_Localized: "holl\xE4ndska"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318658
+    m_Localized: franska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318659
+    m_Localized: tyska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318660
+    m_Localized: grekiska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318661
+    m_Localized: ungerska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318662
+    m_Localized: italienska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318663
+    m_Localized: polska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318664
+    m_Localized: portugisiska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318665
+    m_Localized: "rum\xE4nska"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318666
+    m_Localized: ryska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318667
+    m_Localized: spanska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990086949318668
+    m_Localized: svenska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3246634084978688
+    m_Localized: "V\xE4lkomna"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3975769477427200
+    m_Localized: Information om valt land
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996827202957314
+    m_Localized: "Avst\xE5nd"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996827202957315
+    m_Localized: Urbanism
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3998036974448640
+    m_Localized: Land
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3998036991225856
+    m_Localized: "Spr\xE5k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3998036995420160
+    m_Localized: Religion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4002147342036992
+    m_Localized: Serbian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4319164972478464
+    m_Localized: '|'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4322348759592960
+    m_Localized: Serbian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4324183075532800
+    m_Localized: har
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4324183075532801
+    m_Localized: en
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4324183075532802
+    m_Localized: "g\xF6ra"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4324183075532803
+    m_Localized: av
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4334128114249728
+    m_Localized: Hitta ett nytt liv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20909793336700928
+    m_Localized: Serbian
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
