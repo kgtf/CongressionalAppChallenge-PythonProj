@@ -299,6 +299,19 @@ United Kingdom,67.2,100,Moderate,Christianity,British/Irish,45000,35000,English,
             }
         }
     }
+    public static void FindEnemies(string home) //Find any enemies of the home country
+    {
+        foreach (var country in countries.Values)
+        {
+            if (enemies.ContainsKey(home)) //Check if home country has any enemies
+            {
+                if (enemies[home].Contains(country.Name)) //If country is an enemy of the home country, set score equal to 0
+                {
+                    countryScores[country.Name] = 0;
+                }
+            }
+        }
+    }
 }
 
 

@@ -22,6 +22,7 @@ public class RunInfo : MonoBehaviour
         Country.FindTemperature(PreferencePageScript.tempNum);
         Country.FindUrbaness(PreferencePageScript.slecUrb);
         Country.FindReligion(PreferencePageScript.slecRel);
+        Country.FindEnemies(PreferencePageScript.slecCount);
     }
 
 }
