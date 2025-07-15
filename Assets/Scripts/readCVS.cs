@@ -131,8 +131,10 @@ United Kingdom,67.2,100,Moderate,Christianity,British/Irish,45000,35000,English,
 
         LoadCountries(csvData); //Create each country using the data
 
-        //Add each country with enemies and the enemies into the enemies dictionary (Currently Ukraine is the only country at war)
+        //Add each country with enemies and the enemies into the enemies dictionary
         enemies["Ukraine"] = new List<string> { "Russia", "Belarus" };
+        enemies["Russia"] = new List<string> { "Ukraine" };
+        enemies["Belarus"] = new List<string> { "Ukraine" };
     }
     static void LoadCountries(string csvData) //Parses the CSV data
     {
