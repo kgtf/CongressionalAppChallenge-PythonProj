@@ -5,6 +5,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.InputSystem;
 using UnityEngine.Localization.Settings;
+using UnityEngine.SceneManagement;
 
 public class clickDetector : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class clickDetector : MonoBehaviour
     public TMP_Text urbanscore;
     public TMP_Text religionscore;
     public TMP_Text languagescore;
+    public static string Name;
 
     void Update()
     {
@@ -24,7 +26,9 @@ public class clickDetector : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero); //Find the hitbox at the vector position
             if (hit.collider != null) //Check if mouse clicked a hitbox
             {
-                string Name = hit.collider.gameObject.name;
+                Name = hit.collider.gameObject.name;
+                DataClassSaves.selectedCountry = Name;
+                SceneManager.LoadScene(3);
                 countryName.text = PreferencePageScript.TranslateString(Name);
 
                 //Find the scores of the clicked country for each variable
@@ -59,6 +63,8 @@ public class clickDetector : MonoBehaviour
         if (hit.collider != null)
         {
             string Name = hit.collider.gameObject.name;
+            DataClassSaves.selectedCountry = Name;
+            SceneManager.LoadScene(3);
             countryName.text = PreferencePageScript.TranslateString(Name);
 
             distancescore.text = PreferencePageScript.TranslateString("Distance")
