@@ -131,8 +131,10 @@ United Kingdom,67.2,100,Moderate,Christianity,British/Irish,45000,35000,English,
 
         LoadCountries(csvData); //Create each country using the data
 
-        //Add each country with enemies and the enemies into the enemies dictionary (Currently Ukraine is the only country at war)
+        //Add each country with enemies and the enemies into the enemies dictionary
         enemies["Ukraine"] = new List<string> { "Russia", "Belarus" };
+        enemies["Russia"] = new List<string> { "Ukraine" };
+        enemies["Belarus"] = new List<string> { "Ukraine" };
     }
     static void LoadCountries(string csvData) //Parses the CSV data
     {
@@ -297,6 +299,19 @@ United Kingdom,67.2,100,Moderate,Christianity,British/Irish,45000,35000,English,
             {
                 match = Mathf.Max(0, 1 - Mathf.Pow((distance - dist) / (100 + 50f * Mathf.Pow(dist, 0.5f)), 2)); //Calculate percent difference between the target value and the actual value
                 AddScore(country.Name, match/2 * PreferencePageScript.slecweightDist); //Add the score to the country in the dictionary
+            }
+        }
+    }
+    public static void FindEnemies(string home) //Find any enemies of the home country
+    {
+        foreach (var country in countries.Values)
+        {
+            if (enemies.ContainsKey(home)) //Check if home country has any enemies
+            {
+                if (enemies[home].Contains(country.Name)) //If country is an enemy of the home country, set score equal to 0
+                {
+                    countryScores[country.Name] = 0;
+                }
             }
         }
     }
