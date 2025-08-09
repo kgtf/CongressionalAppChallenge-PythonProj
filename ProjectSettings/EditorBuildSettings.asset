@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Preference_Screen.unity
     guid: 06ce9f83bb0f74077a40aee72d3af217
   - enabled: 1
+    path: Assets/Scenes/WeightScene.unity
+    guid: 04b96d794ea5a9640a8b6ca29e2c5ead
+  - enabled: 1
     path: Assets/Scenes/SocketsScene.unity
     guid: 1e1aa29b4a4bd644eba785dafe3f666e
   - enabled: 1

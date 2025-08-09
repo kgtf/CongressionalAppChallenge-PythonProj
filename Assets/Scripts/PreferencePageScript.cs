@@ -20,6 +20,14 @@ public class PreferencePageScript : MonoBehaviour
     public Slider temperatureSlider;
     public Slider urbanSlider;
     public Slider distanceSlider;
+    public Slider temperatureWeighter;
+    public Slider urbanWeighter;
+    public Slider distanceWeighter;
+    public Slider religionWeighter;
+    public TMP_Text temperatureWeightText;
+    public TMP_Text urbanWeightText;
+    public TMP_Text distanceWeightText;
+    public TMP_Text religionWeightText;
     public TMP_Text tempText;
     public TMP_Text urbText;
     public TMP_Text distText;
@@ -30,6 +38,10 @@ public class PreferencePageScript : MonoBehaviour
     public static string slecRel;
     public static float slecUrb;
     public static float slecDist;
+    public static float slecweightTemp;
+    public static float slecweightUrb;
+    public static float slecweightDist;
+    public static float slecweightRelig;
     public static int tempNum;
     public Image tempHandle;
     public Image distHandle;
@@ -303,9 +315,33 @@ public class PreferencePageScript : MonoBehaviour
     {
         slecUrb = urbanSlider.value;
         urbText.text = slecUrb.ToString() + " %";
-
     }
-    public void SubmitPreferences() //Submit selected preferences and move to final scene
+
+    public void WeighterTempMove() //Return selected value of temperature weighter
+    {
+         slecweightTemp = temperatureWeighter.value;
+        temperatureWeightText.text = (Math.Round(slecweightTemp * 50)).ToString() + "%";
+    }
+
+    public void WeighterUrbMove() //Return selected value of urbaness weighter
+    {
+        slecweightUrb = urbanWeighter.value;
+        urbanWeightText.text = (Math.Round(slecweightUrb * 50)).ToString() + "%";
+    }
+
+    public void WeighterDistMove() //Return selected value of distance weighter
+    {
+        slecweightDist = distanceWeighter.value;
+        distanceWeightText.text = (Math.Round(slecweightDist * 50)).ToString() + "%";
+    }
+
+    public void WeighterReligMove() //Return selected value of religion weighter
+    {
+        slecweightRelig = religionWeighter.value;
+        religionWeightText.text = (Math.Round(slecweightRelig * 50)).ToString() + "%";
+    }
+
+    public void SubmitPreferences() //Submit selected preferences and move to weights scene
     {
         string temperaturePreference = slecTemp;
         float urbanPreference = slecUrb;
@@ -317,13 +353,19 @@ public class PreferencePageScript : MonoBehaviour
         }
         else
         {         
-            SceneManager.LoadScene(2); //Go to final scene
+            NextScene(); //Go to weights scene
         }  
     }
-    public void NextScene() //Change scene to submit preference scene
+
+    public void SubmitWeights() //Submit selected weights and move to final scene
     {
-        SceneManager.LoadScene(1);
+        float weightTemp = slecweightTemp;
+        float weightUrb = slecweightUrb;
+        float weightDist = slecweightDist;
+        float weightRelig = slecweightRelig;
+        NextScene(); //Go to final scene
     }
+
     public void ApplyChange() //Apply selected preferences and transfer selections to next scene
     {
         countryDropdown.value = countIndex;
@@ -334,6 +376,7 @@ public class PreferencePageScript : MonoBehaviour
         languageDropdown.value = langIndex;
         ChangeLanguage(langIndex);
     }
+
     private IEnumerator DelayedSceneCheck() //Call ApplyChangeFunction
     {
         yield return null; //Wait one frame to ensure everything is initialized
@@ -348,6 +391,12 @@ public class PreferencePageScript : MonoBehaviour
             ChangeLanguage(langIndex);
         }
     }
+
+    public void NextScene() //Change scene to submit preference scene
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     public void backButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);

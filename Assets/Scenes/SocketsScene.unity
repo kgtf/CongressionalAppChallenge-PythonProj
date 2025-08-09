@@ -1217,6 +1217,14 @@ MonoBehaviour:
   temperatureSlider: {fileID: 1221611373}
   urbanSlider: {fileID: 754755573}
   distanceSlider: {fileID: 1826393743}
+  temperatureWeighter: {fileID: 0}
+  urbanWeighter: {fileID: 0}
+  distanceWeighter: {fileID: 0}
+  religionWeighter: {fileID: 0}
+  temperatureWeightText: {fileID: 0}
+  urbanWeightText: {fileID: 0}
+  distanceWeightText: {fileID: 0}
+  religionWeightText: {fileID: 0}
   tempText: {fileID: 1849861763}
   urbText: {fileID: 355052252}
   distText: {fileID: 678709074}
@@ -3605,10 +3613,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 833200812}
   m_HandleRect: {fileID: 1362623154}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 10
   m_MaxValue: 100
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 10
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:

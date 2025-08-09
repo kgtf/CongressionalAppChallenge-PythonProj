@@ -221,7 +221,7 @@ United Kingdom,67.2,100,Moderate,Christianity,British/Irish,45000,35000,English,
                 Tempnum = 2;
             }
             score = 1 - (Mathf.Abs(Tempnum - temp) / 2); //Calculates percent difference between the target value and the actual value
-            AddScore(country.Name, score); //Adds the score to the country in the dictionary
+            AddScore(country.Name, score * PreferencePageScript.slecweightTemp); //Adds the score to the country in the dictionary
 
         }
     }
@@ -232,7 +232,7 @@ United Kingdom,67.2,100,Moderate,Christianity,British/Irish,45000,35000,English,
         //Iterate through all countries in the dictionary
         foreach (var country in countries.Values)
         {
-            float weight = 1f; //Set the score value
+            float weight = PreferencePageScript.slecweightRelig; //Set the score value
             if (country.Religion.Exists(r => r.Trim().ToLower() == rel)) //Check if country has the target religion
             {
                 AddScore(country.Name, weight); //Adds the score to the country in the dictionary
@@ -265,7 +265,7 @@ United Kingdom,67.2,100,Moderate,Christianity,British/Irish,45000,35000,English,
             float match = 0;
             float floatUrbaness = float.Parse(country.Urbaness);
             match = Mathf.Max(0, 1 - Mathf.Pow((floatUrbaness - urban) / (100 + 50f * Mathf.Pow(urban, 0.5f)), 2)); //Calculates percent difference between the target value and the actual value
-            AddScore(country.Name, 2 * match); //Adds the score to the country in the dictionary
+            AddScore(country.Name, 2 * match * PreferencePageScript.slecweightUrb); //Adds the score to the country in the dictionary
         }
 
     }
@@ -283,6 +283,7 @@ United Kingdom,67.2,100,Moderate,Christianity,British/Irish,45000,35000,English,
     public static void FindDistance(float dist, string home) //Find the distance score of every country and add it to their score
     {
         Country pos = countries[home]; //Use the name of the home country to get the information for it
+
         //Iterate through all countries in the dictionary
         foreach (var country in countries.Values)
         {
@@ -295,7 +296,7 @@ United Kingdom,67.2,100,Moderate,Christianity,British/Irish,45000,35000,English,
             else
             {
                 match = Mathf.Max(0, 1 - Mathf.Pow((distance - dist) / (100 + 50f * Mathf.Pow(dist, 0.5f)), 2)); //Calculate percent difference between the target value and the actual value
-                AddScore(country.Name, match / 2); //Add the score to the country in the dictionary
+                AddScore(country.Name, match/2 * PreferencePageScript.slecweightDist); //Add the score to the country in the dictionary
             }
         }
     }
