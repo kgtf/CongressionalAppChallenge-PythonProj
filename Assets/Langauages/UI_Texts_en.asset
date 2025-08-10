@@ -411,6 +411,21 @@ MonoBehaviour:
     m_Localized: Ukrainian
     m_Metadata:
       m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: '1. Input Preferences
+
+
+      2. View results and adjust data to
+      see new results
+
+
+      3. Select a country to learn more'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: HELP!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -260,8 +260,8 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2130793017344
     m_Localized: "Seleccioneu les vostres prefer\xE8ncies a continuaci\xF3 per trobar
-      els millors pa\xEFsos per al reassentament en funci\xF3 del clima, la cultura,
-      el cost de la vida i molt m\xE9s."
+      els millors pa\xEFsos per al reassentament segons el clima, la cultura, el
+      cost de la vida i molt m\xE9s."
     m_Metadata:
       m_Items: []
   - m_Id: 2130793017345
@@ -410,6 +410,16 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 20909793336700928
     m_Localized: "Ucra\xEFn\xE8s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: "1. Prefer\xE8ncies d'entrada\n\n2. Visualitza els resultats i ajusta
+      les dades per veure resultats nous\n\n3. Seleccioneu un pa\xEDs per obtenir
+      m\xE9s informaci\xF3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: AJUDA!
     m_Metadata:
       m_Items: []
   references:

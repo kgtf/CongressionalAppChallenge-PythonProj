@@ -377,7 +377,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4002147342036992
-    m_Localized: Serbian
+    m_Localized: serbiska
     m_Metadata:
       m_Items: []
   - m_Id: 4319164972478464
@@ -385,7 +385,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4322348759592960
-    m_Localized: Serbian
+    m_Localized: armeniska
     m_Metadata:
       m_Items: []
   - m_Id: 4324183075532800
@@ -409,7 +409,16 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20909793336700928
-    m_Localized: Serbian
+    m_Localized: ukrainska
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: "1. Inmatningsinst\xE4llningar\n\n2. Visa resultat och justera data
+      f\xF6r att se nya resultat\n\n3. V\xE4lj ett land om du vill veta mer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: "HJ\xC4LP!"
     m_Metadata:
       m_Items: []
   references:

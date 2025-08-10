@@ -67,7 +67,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 94051577859
-    m_Localized: Tcheca
+    m_Localized: "Rep\xFAblica Tcheca"
     m_Metadata:
       m_Items: []
   - m_Id: 94051577860
@@ -293,7 +293,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124355
-    m_Localized: Tcheco
+    m_Localized: tcheco
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318656
@@ -385,7 +385,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4322348759592960
-    m_Localized: "Arm\xEAnio"
+    m_Localized: "arm\xEAnio"
     m_Metadata:
       m_Items: []
   - m_Id: 4324183075532800
@@ -410,6 +410,15 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 20909793336700928
     m_Localized: ucraniano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: "1. Prefer\xEAncias de entrada\n\n2. Visualize os resultados e ajuste
+      os dados para ver novos resultados\n\n3. Selecione um pa\xEDs para saber mais"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: AJUDA!
     m_Metadata:
       m_Items: []
   references:
