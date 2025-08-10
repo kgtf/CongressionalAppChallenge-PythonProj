@@ -28,7 +28,7 @@ public class clickDetector : MonoBehaviour
             {
                 Name = hit.collider.gameObject.name;
                 DataClassSaves.selectedCountry = Name;
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene(4);
                 countryName.text = PreferencePageScript.TranslateString(Name);
 
                 //Find the scores of the clicked country for each variable
@@ -64,7 +64,8 @@ public class clickDetector : MonoBehaviour
         {
             string Name = hit.collider.gameObject.name;
             DataClassSaves.selectedCountry = Name;
-            SceneManager.LoadScene(3);
+            Debug.Log("Click detected");
+            SceneManager.LoadScene(4);
             countryName.text = PreferencePageScript.TranslateString(Name);
 
             distancescore.text = PreferencePageScript.TranslateString("Distance")

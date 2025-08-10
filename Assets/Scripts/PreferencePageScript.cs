@@ -38,6 +38,7 @@ public class PreferencePageScript : MonoBehaviour
     public static string slecRel;
     public static float slecUrb;
     public static float slecDist;
+    public static string slecLang;
     public static float slecweightTemp;
     public static float slecweightUrb;
     public static float slecweightDist;
@@ -200,6 +201,11 @@ public class PreferencePageScript : MonoBehaviour
         }
     }
 
+    public void OnLanguageSelected()
+    {
+        langIndex = languageDropdown.value;
+        slecLang = languageDropdown.options[langIndex].text;
+    }
     void PopulateReligionDropdown() //Add all possible religions to the religion dropdown
     {
         // Clear existing options

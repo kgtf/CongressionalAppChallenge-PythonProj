@@ -18,6 +18,7 @@ public class RunInfo : MonoBehaviour
         
         //Calculate the score of each country based on the inputs from the sliders/dropdowns and the CSV data
         Country.FindEcon();
+        Country.FindLanguage(PreferencePageScript.slecLang);
         Country.FindDistance(PreferencePageScript.slecDist, PreferencePageScript.slecCount);
         Country.FindTemperature(PreferencePageScript.tempNum);
         Country.FindUrbaness(PreferencePageScript.slecUrb);

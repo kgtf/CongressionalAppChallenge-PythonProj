@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Localization.SmartFormat.Utilities;
 
 public class Country
 {
@@ -246,17 +247,17 @@ United Kingdom,67.2,100,Moderate,Christianity,British/Irish,45000,35000,English,
     }
     public static void FindLanguage(string lang) //Check if the country has the target language and if so, add to their score
     {
-        lang = lang.Trim().ToLower();
+        
         // Iterate through all countries in the dictionary
         foreach (var country in countries.Values)
         {
-            if (country.Language.Exists(r => r.Trim().ToLower() == lang)) //Check if country has the target language
+            foreach (string Language in country.Language)
             {
-                AddScore(country.Name, 1); //Adds the score to the country in the dictionary
-
+                if (Language == lang)
+                {
+                    AddScore(country.Name, 100000000000); //Adds the score to the country in the dictionary
+                }
             }
-
-
         }
     }
     public static void FindUrbaness(float urban) //Find the urban score of every country and add it to their score
