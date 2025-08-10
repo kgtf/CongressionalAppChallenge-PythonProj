@@ -7600,7 +7600,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1085531039}
   m_Direction: 0
   m_MinValue: 100
-  m_MaxValue: 5000
+  m_MaxValue: 7500
   m_WholeNumbers: 1
   m_Value: 100
   m_OnValueChanged:

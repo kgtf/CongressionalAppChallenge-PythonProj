@@ -38,6 +38,7 @@ public class PreferencePageScript : MonoBehaviour
     public static string slecRel;
     public static float slecUrb;
     public static float slecDist;
+    public static string slecLang;
     public static float slecweightTemp;
     public static float slecweightUrb;
     public static float slecweightDist;
@@ -158,8 +159,11 @@ public class PreferencePageScript : MonoBehaviour
         };
 
         // Add country names from the countries dictionary
+        translatednames.Clear();
+        translatednames.Add("Null"); //Set the first value as a placeholder to align indices
         foreach (var countryEntry in Country.countries.Values)
         {
+
             translatednames.Add(countryEntry.Name);
             string localizedCountryName = LocalizationSettings.StringDatabase.GetLocalizedString("UI_Texts", countryEntry.Name);
             coop.Add(new TMP_Dropdown.OptionData(localizedCountryName));
@@ -179,8 +183,12 @@ public class PreferencePageScript : MonoBehaviour
         }
         else
         {
-            slecCount = translatednames[countIndex];
             countIndex = countryDropdown.value;
+            Debug.Log(countIndex);
+            Debug.Log(translatednames[countIndex - 1]);
+            Debug.Log(translatednames[countIndex]);
+            Debug.Log(translatednames[countIndex + 1]);
+            slecCount = translatednames[countIndex];
             Debug.Log(countIndex);
         }
 
@@ -193,6 +201,11 @@ public class PreferencePageScript : MonoBehaviour
         }
     }
 
+    public void OnLanguageSelected()
+    {
+        langIndex = languageDropdown.value;
+        slecLang = languageDropdown.options[langIndex].text;
+    }
     void PopulateReligionDropdown() //Add all possible religions to the religion dropdown
     {
         // Clear existing options
