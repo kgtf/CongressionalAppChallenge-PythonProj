@@ -239,7 +239,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823043
-    m_Localized: "Distan\u021Ba (km)"
+    m_Localized: "Distan\u021B\u0103 (km)"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823044
@@ -410,6 +410,16 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 20909793336700928
     m_Localized: ucrainean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: "1. Preferin\u021Be de intrare\n\n2. Vizualiza\u021Bi rezultatele
+      \u0219i ajusta\u021Bi datele pentru a vedea rezultate noi\n\n3. Selecta\u021Bi
+      o \u021Bar\u0103 pentru a afla mai multe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: AJUTOR!
     m_Metadata:
       m_Items: []
   references:

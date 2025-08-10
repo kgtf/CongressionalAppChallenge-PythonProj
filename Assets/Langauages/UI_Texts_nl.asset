@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 66424135680
-    m_Localized: Woonland
+    m_Localized: Land van verblijf
     m_Metadata:
       m_Items: []
   - m_Id: 94047383560
@@ -227,7 +227,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823040
-    m_Localized: Selecteer Religie
+    m_Localized: Selecteer religie
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823041
@@ -235,7 +235,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823042
-    m_Localized: Stedelijkheid (%)
+    m_Localized: Stedelijk (%)
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823043
@@ -260,7 +260,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2130793017344
     m_Localized: Selecteer hieronder uw voorkeuren om de beste landen voor hervestiging
-      te vinden op basis van klimaat, cultuur, kosten van levensonderhoud en meer.
+      te vinden, gebaseerd op klimaat, cultuur, kosten van levensonderhoud en meer.
     m_Metadata:
       m_Items: []
   - m_Id: 2130793017345
@@ -276,7 +276,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086924152832
-    m_Localized: Selecteer Taal
+    m_Localized: Selecteer taal
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124352
@@ -360,7 +360,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957315
-    m_Localized: Stedelijkheid
+    m_Localized: Stedelijke
     m_Metadata:
       m_Items: []
   - m_Id: 3998036974448640
@@ -396,7 +396,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4324183075532802
-    m_Localized: scoren
+    m_Localized: score
     m_Metadata:
       m_Items: []
   - m_Id: 4324183075532803
@@ -409,6 +409,21 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 20909793336700928
     m_Localized: "Oekra\xEFens"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: '1. Invoervoorkeuren
+
+
+      2. Bekijk resultaten en pas gegevens
+      aan om nieuwe resultaten te zien
+
+
+      3. Selecteer een land voor meer informatie'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: HULP!
     m_Metadata:
       m_Items: []
   references:

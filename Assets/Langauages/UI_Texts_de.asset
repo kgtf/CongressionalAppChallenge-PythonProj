@@ -227,7 +227,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823040
-    m_Localized: "W\xE4hlen Sie Religion"
+    m_Localized: "Religion ausw\xE4hlen"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823041
@@ -260,8 +260,8 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2130793017344
     m_Localized: "W\xE4hlen Sie unten Ihre Pr\xE4ferenzen aus, um die besten L\xE4nder
-      f\xFCr die Umsiedlung zu finden, basierend auf Klima, Kultur, Lebenshaltungskosten
-      und mehr."
+      f\xFCr eine Neuansiedlung basierend auf Klima, Kultur, Lebenshaltungskosten
+      und mehr zu finden."
     m_Metadata:
       m_Items: []
   - m_Id: 2130793017345
@@ -277,7 +277,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086924152832
-    m_Localized: "W\xE4hlen Sie Sprache aus"
+    m_Localized: "Sprache ausw\xE4hlen"
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124352
@@ -405,11 +405,20 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4334128114249728
-    m_Localized: Finden Sie ein neues Leben
+    m_Localized: Finde ein neues Leben
     m_Metadata:
       m_Items: []
   - m_Id: 20909793336700928
     m_Localized: ukrainisch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: "1. Eingabepr\xE4ferenzen\n\n2. Ergebnisse ansehen und Daten anpassen,
+      um neue Ergebnisse zu sehen\n\n3. Land ausw\xE4hlen, um mehr zu erfahren"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: HELFEN!
     m_Metadata:
       m_Items: []
   references:

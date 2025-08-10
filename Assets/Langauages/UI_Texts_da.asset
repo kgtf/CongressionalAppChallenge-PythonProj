@@ -411,6 +411,15 @@ MonoBehaviour:
     m_Localized: ukrainsk
     m_Metadata:
       m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: "1. Indtastningspr\xE6ferencer\n\n2. Se resultater og juster data
+      for at se nye resultater\n\n3. V\xE6lg et land for at f\xE5 mere at vide"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: "HJ\xC6LP!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

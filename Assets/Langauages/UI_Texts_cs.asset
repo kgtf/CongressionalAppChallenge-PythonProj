@@ -235,7 +235,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823042
-    m_Localized: Urbanismus (%)
+    m_Localized: Urbanness (%)
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823043
@@ -361,7 +361,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957315
-    m_Localized: Urbanismus
+    m_Localized: Urbanness
     m_Metadata:
       m_Items: []
   - m_Id: 3998036974448640
@@ -405,11 +405,21 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4334128114249728
-    m_Localized: "Naj\xEDt nov\xFD \u017Eivot"
+    m_Localized: "Najd\u011Bte nov\xFD \u017Eivot"
     m_Metadata:
       m_Items: []
   - m_Id: 20909793336700928
     m_Localized: "ukrajin\u0161tina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: "1. P\u0159edvolby zad\xE1v\xE1n\xED\n\n2. Zobrazte v\xFDsledky
+      a upravte data, abyste vid\u011Bli nov\xE9 v\xFDsledky\n\n3. Chcete-li se dozv\u011Bd\u011Bt
+      v\xEDce, vyberte zemi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: POMOC!
     m_Metadata:
       m_Items: []
   references:

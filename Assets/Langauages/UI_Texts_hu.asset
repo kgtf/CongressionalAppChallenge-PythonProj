@@ -401,7 +401,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4324183075532803
-    m_Localized: "-b\xF3l"
+    m_Localized: a
     m_Metadata:
       m_Items: []
   - m_Id: 4334128114249728
@@ -410,6 +410,16 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 20909793336700928
     m_Localized: "ukr\xE1n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: "1. Beviteli be\xE1ll\xEDt\xE1sok\n\n2. Tekintse meg az eredm\xE9nyeket,
+      \xE9s m\xF3dos\xEDtsa az adatokat az \xFAj eredm\xE9nyek megtekint\xE9s\xE9hez\n\n3.
+      Tov\xE1bbi inform\xE1ci\xF3\xE9rt v\xE1lasszon egy orsz\xE1got"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: "SEG\xCDTS\xC9G!"
     m_Metadata:
       m_Items: []
   references:
