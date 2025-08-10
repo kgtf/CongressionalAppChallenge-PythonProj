@@ -227,7 +227,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823040
-    m_Localized: "Seleccionar religi\xF3n"
+    m_Localized: "Seleccione religi\xF3n"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823041
@@ -235,7 +235,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823042
-    m_Localized: Urbanismo (%)
+    m_Localized: Urbanidad (%)
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823043
@@ -353,7 +353,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3975769477427200
-    m_Localized: "Informaci\xF3n del pa\xEDs seleccionado"
+    m_Localized: "Informaci\xF3n de pa\xEDses seleccionados"
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957314
@@ -361,7 +361,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957315
-    m_Localized: urbanidad
+    m_Localized: Urbanidad
     m_Metadata:
       m_Items: []
   - m_Id: 3998036974448640
@@ -410,6 +410,16 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 20909793336700928
     m_Localized: ucranio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: "1. Preferencias de entrada\n\n2. Ver resultados y ajustar los datos
+      para ver nuevos resultados\n\n3. Seleccionar un pa\xEDs para obtener m\xE1s
+      informaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: "\xA1AYUDA!"
     m_Metadata:
       m_Items: []
   references:

@@ -227,7 +227,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823040
-    m_Localized: "Wybierz Religi\u0119"
+    m_Localized: "Wybierz religi\u0119"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823041
@@ -235,7 +235,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823042
-    m_Localized: Urbanistka (%)
+    m_Localized: Miejska (%)
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823043
@@ -260,12 +260,12 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2130793017344
     m_Localized: "Wybierz poni\u017Cej swoje preferencje, aby znale\u017A\u0107 najlepsze
-      kraje do przesiedlenia na podstawie klimatu, kultury, koszt\xF3w utrzymania
-      i innych."
+      kraje do przesiedlenia ze wzgl\u0119du na klimat, kultur\u0119, koszty utrzymania
+      i inne czynniki."
     m_Metadata:
       m_Items: []
   - m_Id: 2130793017345
-    m_Localized: "Preferencje w zakresie przesiedle\u0144 uchod\u017Ac\xF3w"
+    m_Localized: "Preferencje dotycz\u0105ce przesiedlenia uchod\u017Ac\xF3w"
     m_Metadata:
       m_Items: []
   - m_Id: 655850627215360
@@ -277,7 +277,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086924152832
-    m_Localized: "Wybierz J\u0119zyk"
+    m_Localized: "Wybierz j\u0119zyk"
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124352
@@ -361,7 +361,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957315
-    m_Localized: Urbanistka
+    m_Localized: "Miejsko\u015B\u0107"
     m_Metadata:
       m_Items: []
   - m_Id: 3998036974448640
@@ -410,6 +410,16 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 20909793336700928
     m_Localized: "ukrai\u0144ski"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: "1. Preferencje wej\u015Bciowe\n\n2. Wy\u015Bwietl wyniki i dostosuj
+      dane, aby zobaczy\u0107 nowe wyniki\n\n3. Wybierz kraj, aby dowiedzie\u0107
+      si\u0119 wi\u0119cej"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: POMOC!
     m_Metadata:
       m_Items: []
   references:

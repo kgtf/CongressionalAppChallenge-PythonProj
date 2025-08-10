@@ -269,7 +269,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 655850627215360
-    m_Localized: Christianisme
+    m_Localized: christianisme
     m_Metadata:
       m_Items: []
   - m_Id: 656712556687360
@@ -277,7 +277,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086924152832
-    m_Localized: "S\xE9lectionnez la langue"
+    m_Localized: "S\xE9lectionner la langue"
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124352
@@ -353,7 +353,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3975769477427200
-    m_Localized: "Informations sur les pays s\xE9lectionn\xE9s"
+    m_Localized: "Informations sur le pays s\xE9lectionn\xE9"
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957314
@@ -361,7 +361,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957315
-    m_Localized: "Urbanit\xE9"
+    m_Localized: Urbaine
     m_Metadata:
       m_Items: []
   - m_Id: 3998036974448640
@@ -410,6 +410,16 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 20909793336700928
     m_Localized: ukrainien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63732147523977216
+    m_Localized: "1. Pr\xE9f\xE9rences de saisie\n\n2. Afficher les r\xE9sultats
+      et ajuster les donn\xE9es pour obtenir de nouveaux r\xE9sultats\n\n3. S\xE9lectionner
+      un pays pour en savoir plus"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63735601625595904
+    m_Localized: AIDE!
     m_Metadata:
       m_Items: []
   references:
