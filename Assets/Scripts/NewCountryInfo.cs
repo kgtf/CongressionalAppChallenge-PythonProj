@@ -15,17 +15,17 @@ public class NewCountryInfo : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        countryName.text = DataClassSaves.selectedCountry;
+        countryName.text = PreferencePageScript.TranslateString(DataClassSaves.selectedCountry); 
         distancescore.text = PreferencePageScript.TranslateString("Distance")
-                + ": " + Country.FindDistance2(PreferencePageScript.slecCount, countryName.text);
+                + ": " + Country.FindDistance2(PreferencePageScript.slecCount, DataClassSaves.selectedCountry);
         tempscore.text = PreferencePageScript.TranslateString("Temperature")
-            + ": " + PreferencePageScript.TranslateString(Country.FindTemperature2(countryName.text).ToString());
+            + ": " + PreferencePageScript.TranslateString(Country.FindTemperature2(DataClassSaves.selectedCountry).ToString());
         urbanscore.text = PreferencePageScript.TranslateString("Urbaness")
-            + ": " + Country.FindUrbaness2(countryName.text);
+            + ": " + Country.FindUrbaness2(DataClassSaves.selectedCountry);
         religionscore.text = PreferencePageScript.TranslateString("Religion")
-            + ": " + PreferencePageScript.TranslateString(Country.FindReligion2(countryName.text).ToString());
+            + ": " + PreferencePageScript.TranslateString(Country.FindReligion2(DataClassSaves.selectedCountry).ToString());
         languagescore.text = PreferencePageScript.TranslateString("Language")
-            + ": " + PreferencePageScript.TranslateString(Country.FindLanguage2(countryName.text).ToString());
+            + ": " + PreferencePageScript.TranslateString(Country.FindLanguage2(DataClassSaves.selectedCountry).ToString());
     }
 
     // Update is called once per frame
