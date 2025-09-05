@@ -398,7 +398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.007843138, g: 0.42352945, b: 0.33333334, a: 1}
+  m_Color: {r: 0.18039216, g: 0.22745098, b: 0.30980393, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -873,15 +873,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Option A
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7a6ab842f57f44084ad951c9a9ba6cfb, type: 2}
+  m_sharedMaterial: {fileID: -8034642080850055065, guid: 7a6ab842f57f44084ad951c9a9ba6cfb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190311
+  m_fontColor: {r: 0.9056604, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1095,7 +1095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
+  m_Color: {r: 0.95686275, g: 0.9607843, b: 0.9764706, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2021,6 +2021,14 @@ MonoBehaviour:
   temperatureSlider: {fileID: 0}
   urbanSlider: {fileID: 0}
   distanceSlider: {fileID: 0}
+  temperatureWeighter: {fileID: 0}
+  urbanWeighter: {fileID: 0}
+  distanceWeighter: {fileID: 0}
+  religionWeighter: {fileID: 0}
+  temperatureWeightText: {fileID: 0}
+  urbanWeightText: {fileID: 0}
+  distanceWeightText: {fileID: 0}
+  religionWeightText: {fileID: 0}
   tempText: {fileID: 0}
   urbText: {fileID: 0}
   distText: {fileID: 0}
@@ -2204,8 +2212,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Welcome
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7a6ab842f57f44084ad951c9a9ba6cfb, type: 2}
+  m_sharedMaterial: {fileID: -8034642080850055065, guid: 7a6ab842f57f44084ad951c9a9ba6cfb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2335,7 +2343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21568629, g: 0.21568629, b: 0.21568629, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
