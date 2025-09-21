@@ -47,19 +47,17 @@ public class PreferencePageScript : MonoBehaviour
     public Image tempHandle;
     public Image distHandle;
     public LocalizedString[] localizedOptions; 
-    public static int countIndex;
-    public static int relIndex;
     public static int currentIndex;
-    public static int langIndex;
-    
+ 
     private void Start()
     {
         StartCoroutine(DelayedSceneCheck()); //Waits a couple frames before running DelayedSceneCheck
-        
         //Fill in options for the dropdowns
         PopulateLangDropdown(); 
         PopulateCountryDropdown();
         PopulateReligionDropdown();
+        countryDropdown.value = DataClassSaves.countIndex;
+        religionDropdown.value = DataClassSaves.relIndex;
 
         LocalizationSettings.SelectedLocaleChanged += (locale) =>
         { 
@@ -67,10 +65,10 @@ public class PreferencePageScript : MonoBehaviour
             PopulateCountryDropdown();
             PopulateReligionDropdown(); 
         };
-        languageDropdown.RefreshShownValue(); //Update visual display for language dropdown
-        countryDropdown.RefreshShownValue(); //Update visual display for country dropdown
+
+        //religionDropdown.RefreshShownValue();
+       //countryDropdown.RefreshShownValue();
         OnCountrySelected(); // Manually trigger our logic
-        religionDropdown.RefreshShownValue(); //Update visual display for religion dropdown
         OnReligionSelected(); // Manually trigger our logic
     }
 
@@ -107,7 +105,7 @@ public class PreferencePageScript : MonoBehaviour
         var locales = LocalizationSettings.AvailableLocales.Locales;
         currentIndex = locales.IndexOf(LocalizationSettings.SelectedLocale);
         LocalizationSettings.SelectedLocale = locales[index]; // Change locale
-        langIndex = languageDropdown.value;
+        DataClassSaves.langIndex = languageDropdown.value;
     }
 
     public static string TranslateString(string sentence) //Translate a string by splitting it into words based on spaces and then using the string tables
@@ -176,24 +174,24 @@ public class PreferencePageScript : MonoBehaviour
     // Method to handle selection
     public void OnCountrySelected()
     {
-        countIndex = countryDropdown.value;
-        if (countIndex == 0)
+        DataClassSaves.countIndex = countryDropdown.value;
+        if (DataClassSaves.countIndex == 0)
         {
             Debug.Log("Please select a country.");
         }
         else
         {
-            countIndex = countryDropdown.value;
-            Debug.Log(countIndex);
-            Debug.Log(translatednames[countIndex - 1]);
-            Debug.Log(translatednames[countIndex]);
-            Debug.Log(translatednames[countIndex + 1]);
-            slecCount = translatednames[countIndex];
-            Debug.Log(countIndex);
+            DataClassSaves.countIndex = countryDropdown.value;
+            Debug.Log(DataClassSaves.countIndex);
+            Debug.Log(translatednames[DataClassSaves.countIndex - 1]);
+            Debug.Log(translatednames[DataClassSaves.countIndex]);
+            Debug.Log(translatednames[DataClassSaves.countIndex + 1]);
+            slecCount = translatednames[DataClassSaves.countIndex];
+            Debug.Log(DataClassSaves.countIndex);
         }
 
         // Get the selected country's name
-        string selectedCountryName = countryDropdown.options[countIndex].text;
+        string selectedCountryName = countryDropdown.options[DataClassSaves.countIndex].text;
 
         // Retrieve the Country object using the name
         if (Country.countries.TryGetValue(selectedCountryName, out Country selectedCountry))
@@ -203,8 +201,10 @@ public class PreferencePageScript : MonoBehaviour
 
     public void OnLanguageSelected()
     {
-        langIndex = languageDropdown.value;
-        slecLang = languageDropdown.options[langIndex].text;
+        DataClassSaves.langIndex = languageDropdown.value;
+        slecLang = languageDropdown.options[DataClassSaves.langIndex].text;
+        countryDropdown.value = DataClassSaves.countIndex;
+        religionDropdown.value = DataClassSaves.relIndex;
     }
     void PopulateReligionDropdown() //Add all possible religions to the religion dropdown
     {
@@ -245,15 +245,16 @@ public class PreferencePageScript : MonoBehaviour
     // Handle selection
     public void OnReligionSelected()
     {
-        relIndex = religionDropdown.value;
-        if (relIndex == 0)
+        DataClassSaves.relIndex = religionDropdown.value;
+        if (DataClassSaves.relIndex == 0)
         {
 
             return;
         }
         else
         {
-            slecRel = religionDropdown.options[relIndex].text;
+            slecRel = religionDropdown.options[DataClassSaves.relIndex].text;
+            Debug.Log(DataClassSaves.relIndex);
 
         }
     }
@@ -360,7 +361,7 @@ public class PreferencePageScript : MonoBehaviour
         float urbanPreference = slecUrb;
         float distancePreference = slecDist;
 
-        if (temperaturePreference == null || urbanPreference == 0 || distancePreference == 0 || countIndex == 0 || relIndex == 0) //Check that user has filled in each preference
+        if (temperaturePreference == null || urbanPreference == 0 || distancePreference == 0 || DataClassSaves.countIndex == 0 || DataClassSaves.relIndex == 0) //Check that user has filled in each preference
         {
             return;
         }
@@ -381,27 +382,24 @@ public class PreferencePageScript : MonoBehaviour
 
     public void ApplyChange() //Apply selected preferences and transfer selections to next scene
     {
-        countryDropdown.value = countIndex;
-        religionDropdown.value = relIndex;
+        countryDropdown.value = DataClassSaves.countIndex;
+        religionDropdown.value = DataClassSaves.relIndex;
         temperatureSlider.value = tempNum;
         urbanSlider.value = slecUrb;
         distanceSlider.value = slecDist;
-        languageDropdown.value = langIndex;
-        ChangeLanguage(langIndex);
+        languageDropdown.value = DataClassSaves.langIndex;
+        ChangeLanguage(DataClassSaves.langIndex);
     }
 
     private IEnumerator DelayedSceneCheck() //Call ApplyChangeFunction
     {
         yield return null; //Wait one frame to ensure everything is initialized
 
-        if (SceneManager.GetActiveScene().buildIndex == 2) //Transfers preferences from one scene to the other
+        if (SceneManager.GetActiveScene().buildIndex > 0) //Transfers preferences from one scene to the other
         {
             ApplyChange();
-        }
-        if (SceneManager.GetActiveScene().buildIndex == 1) //Transfers preferences from one scene to the other
-        {
-            languageDropdown.value = langIndex;
-            ChangeLanguage(langIndex);
+            languageDropdown.value = DataClassSaves.langIndex;
+            ChangeLanguage(DataClassSaves.langIndex);
         }
     }
 
@@ -421,7 +419,7 @@ public class PreferencePageScript : MonoBehaviour
     }
     public void ReloadTranslate()
     {
-        ChangeLanguage(langIndex);
+        ChangeLanguage(DataClassSaves.langIndex);
     }
 
 }
