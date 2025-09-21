@@ -15,9 +15,10 @@ public class RunInfo : MonoBehaviour
     public void RunInputs() //Compiles each function into one
     {
         Country.Main(); //Use the CSV data to create each country
-        
+
         //Calculate the score of each country based on the inputs from the sliders/dropdowns and the CSV data
         Country.FindEcon();
+        Country.FindCitizenshipDifficulty();
         Country.FindLanguage(PreferencePageScript.slecLang);
         Country.FindDistance(PreferencePageScript.slecDist, PreferencePageScript.slecCount);
         Country.FindTemperature(PreferencePageScript.tempNum);

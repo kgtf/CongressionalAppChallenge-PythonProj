@@ -23,7 +23,16 @@ public class Country
     public string Latitude { get; set; }
     public static Dictionary<string, float> countryScores = new Dictionary<string, float>(); //Holds each countries name as a key and their score as a value
     public static Dictionary<string, Country> countries = new Dictionary<string, Country>(); //Dictionary of each countries name and its information
-    public static Dictionary<string, List<string>> enemies = new Dictionary<string, List<string>>(); //List of each country with an enemy as a key and a list of its enemies as a value<string> myList = new List<string>(){coun}
+    public static Dictionary<string, List<string>> enemies = new Dictionary<string, List<string>>(); //List of each country with an enemy as a key and a list of its enemies as a value
+    public static List<string> CitizenshipDifficulties = new List<string>
+    {"Portugal", "Greece", "Spain", "Italy", "Malta", "Bulgaria", "Romania", "Hungary",
+    "Czechia", "Belgium", "Netherlands", "Ireland", "United Kingdom", "Sweden", "France",
+    "Germany", "Finland", "Denmark", "Austria", "Switzerland", "Luxembourg", "Iceland",
+    "Norway", "Poland", "Slovakia", "Slovenia", "Croatia", "Cyprus", "Estonia", "Latvia",
+    "Lithuania", "Liechtenstein", "Andorra", "San Marino", "Monaco", "Bosnia and Herzegovina",
+    "Serbia", "Montenegro", "Albania", "North Macedonia", "Kosovo", "Moldova",
+    "Armenia", "Azerbaijan", "Belarus", "Georgia", "Turkey", "Russia", "Kazakhstan", "Ukraine"}; 
+    //List of each countries ordered by how hard it is to become naturalized relatively
     public Country(string name, string population, string distance, string temperature, string religion, string ethnicities, string yearlyWage, string expenses, string language, string urbaness, string diplomaticStatus, string latitude, string longitude)
     {
         //Country Constructor
@@ -255,7 +264,7 @@ United Kingdom,67.2,100,Moderate,Christianity,British/Irish,45000,35000,English,
             {
                 if (Language == lang)
                 {
-                    AddScore(country.Name, 100000000000); //Adds the score to the country in the dictionary
+                    AddScore(country.Name, 1.5f); //Adds the score to the country in the dictionary
                 }
             }
         }
@@ -283,6 +292,16 @@ United Kingdom,67.2,100,Moderate,Christianity,British/Irish,45000,35000,English,
             AddScore(country.Name, score); //Adds the score to the country in the dictionary
         }
     }
+
+    public static void FindCitizenshipDifficulty()
+    {
+        foreach (var country in countries.Values)
+        {
+            int index = CitizenshipDifficulties.IndexOf(country.Name);
+            AddScore(country.Name, 2 - index/25);
+        }
+    }
+
     public static void FindDistance(float dist, string home) //Find the distance score of every country and add it to their score
     {
         Country pos = countries[home]; //Use the name of the home country to get the information for it
