@@ -9,6 +9,7 @@ using UnityEngine.Localization.Settings;
 using System.Collections;
 using UnityEngine.InputSystem;
 using System;
+using UnityEditor.Localization.Plugins.XLIFF.V20;
 
 
 public class PreferencePageScript : MonoBehaviour
@@ -48,31 +49,42 @@ public class PreferencePageScript : MonoBehaviour
     public Image distHandle;
     public LocalizedString[] localizedOptions; 
     public static int currentIndex;
- 
+
     private void Start()
     {
         StartCoroutine(DelayedSceneCheck()); //Waits a couple frames before running DelayedSceneCheck
-        //Fill in options for the dropdowns
-        PopulateLangDropdown(); 
+                                             //Fill in options for the dropdowns
+        temperatureWeighter.value = DataClassSaves.tempSlider;
+        Debug.Log("Value:" + temperatureWeighter.value);
+        urbanWeighter.value = DataClassSaves.urbSlider;
+        distanceWeighter.value = DataClassSaves.distSlider;
+        religionWeighter.value = DataClassSaves.relSlider;
+        
+        PopulateLangDropdown();
         PopulateCountryDropdown();
         PopulateReligionDropdown();
         countryDropdown.value = DataClassSaves.countIndex;
         religionDropdown.value = DataClassSaves.relIndex;
 
         LocalizationSettings.SelectedLocaleChanged += (locale) =>
-        { 
+        {
             //Translate all dropdown options to the chosen language
             PopulateCountryDropdown();
-            PopulateReligionDropdown(); 
+            PopulateReligionDropdown();
         };
 
+        
+
+
         //religionDropdown.RefreshShownValue();
-       //countryDropdown.RefreshShownValue();
+        //countryDropdown.RefreshShownValue();
         OnCountrySelected(); // Manually trigger our logic
         OnReligionSelected(); // Manually trigger our logic
+
+        
     }
 
-        public void InitializeScore() //Reset score of each country to 0
+    public void InitializeScore() //Reset score of each country to 0
     {
         foreach (var key in Country.countryScores.Keys.ToList())
         {
@@ -374,9 +386,13 @@ public class PreferencePageScript : MonoBehaviour
     public void SubmitWeights() //Submit selected weights and move to final scene
     {
         float weightTemp = slecweightTemp;
+        DataClassSaves.tempSlider = slecweightTemp;
         float weightUrb = slecweightUrb;
+        DataClassSaves.urbSlider = slecweightUrb;
         float weightDist = slecweightDist;
+        DataClassSaves.distSlider = slecweightDist;
         float weightRelig = slecweightRelig;
+        DataClassSaves.relSlider = slecweightRelig;
         NextScene(); //Go to final scene
     }
 
