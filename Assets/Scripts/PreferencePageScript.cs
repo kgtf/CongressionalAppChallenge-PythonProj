@@ -50,21 +50,28 @@ public class PreferencePageScript : MonoBehaviour
     public LocalizedString[] localizedOptions; 
     public static int currentIndex;
 
+    private void OnEnable()
+    {
+        RestoreWeightState();
+    }
+
+    private void OnDisable()
+    {
+        CacheWeightState();
+    }
+
     private void Start()
     {
-        StartCoroutine(DelayedSceneCheck()); //Waits a couple frames before running DelayedSceneCheck
-                                             //Fill in options for the dropdowns
-        temperatureWeighter.value = DataClassSaves.tempSlider;
-        Debug.Log("Value:" + temperatureWeighter.value);
-        urbanWeighter.value = DataClassSaves.urbSlider;
-        distanceWeighter.value = DataClassSaves.distSlider;
-        religionWeighter.value = DataClassSaves.relSlider;
-        
+
         PopulateLangDropdown();
         PopulateCountryDropdown();
         PopulateReligionDropdown();
+        languageDropdown.value = DataClassSaves.langIndex;
+        ChangeLanguage(DataClassSaves.langIndex);
         countryDropdown.value = DataClassSaves.countIndex;
         religionDropdown.value = DataClassSaves.relIndex;
+        RestoreWeightState();
+        ApplyChange();
 
         LocalizationSettings.SelectedLocaleChanged += (locale) =>
         {
@@ -345,26 +352,50 @@ public class PreferencePageScript : MonoBehaviour
 
     public void WeighterTempMove() //Return selected value of temperature weighter
     {
-         slecweightTemp = temperatureWeighter.value;
-        temperatureWeightText.text = (Math.Round(slecweightTemp * 50)).ToString() + "%";
+        if (temperatureWeighter == null)
+        {
+            return;
+        }
+
+        slecweightTemp = temperatureWeighter.value;
+        DataClassSaves.tempSlider = slecweightTemp;
+        UpdateWeightLabel(temperatureWeightText, slecweightTemp);
     }
 
     public void WeighterUrbMove() //Return selected value of urbaness weighter
     {
+        if (urbanWeighter == null)
+        {
+            return;
+        }
+
         slecweightUrb = urbanWeighter.value;
-        urbanWeightText.text = (Math.Round(slecweightUrb * 50)).ToString() + "%";
+        DataClassSaves.urbSlider = slecweightUrb;
+        UpdateWeightLabel(urbanWeightText, slecweightUrb);
     }
 
     public void WeighterDistMove() //Return selected value of distance weighter
     {
+        if (distanceWeighter == null)
+        {
+            return;
+        }
+
         slecweightDist = distanceWeighter.value;
-        distanceWeightText.text = (Math.Round(slecweightDist * 50)).ToString() + "%";
+        DataClassSaves.distSlider = slecweightDist;
+        UpdateWeightLabel(distanceWeightText, slecweightDist);
     }
 
     public void WeighterReligMove() //Return selected value of religion weighter
     {
+        if (religionWeighter == null)
+        {
+            return;
+        }
+
         slecweightRelig = religionWeighter.value;
-        religionWeightText.text = (Math.Round(slecweightRelig * 50)).ToString() + "%";
+        DataClassSaves.relSlider = slecweightRelig;
+        UpdateWeightLabel(religionWeightText, slecweightRelig);
     }
 
     public void SubmitPreferences() //Submit selected preferences and move to weights scene
@@ -438,4 +469,52 @@ public class PreferencePageScript : MonoBehaviour
         ChangeLanguage(DataClassSaves.langIndex);
     }
 
+    private void RestoreWeightState()
+    {
+        ApplySavedWeight(temperatureWeighter, DataClassSaves.tempSlider, ref slecweightTemp, temperatureWeightText);
+        ApplySavedWeight(urbanWeighter, DataClassSaves.urbSlider, ref slecweightUrb, urbanWeightText);
+        ApplySavedWeight(distanceWeighter, DataClassSaves.distSlider, ref slecweightDist, distanceWeightText);
+        ApplySavedWeight(religionWeighter, DataClassSaves.relSlider, ref slecweightRelig, religionWeightText);
+    }
+
+    private void ApplySavedWeight(Slider slider, float savedValue, ref float cache, TMP_Text label)
+    {
+        if (slider == null)
+        {
+            return;
+        }
+
+        slider.SetValueWithoutNotify(savedValue);
+        cache = savedValue;
+        UpdateWeightLabel(label, savedValue);
+    }
+
+    private void CacheWeightState()
+    {
+        CacheSlider(temperatureWeighter, ref slecweightTemp, value => DataClassSaves.tempSlider = value);
+        CacheSlider(urbanWeighter, ref slecweightUrb, value => DataClassSaves.urbSlider = value);
+        CacheSlider(distanceWeighter, ref slecweightDist, value => DataClassSaves.distSlider = value);
+        CacheSlider(religionWeighter, ref slecweightRelig, value => DataClassSaves.relSlider = value);
+    }
+
+    private void CacheSlider(Slider slider, ref float cache, Action<float> setter)
+    {
+        if (slider == null)
+        {
+            return;
+        }
+
+        cache = slider.value;
+        setter?.Invoke(cache);
+    }
+
+    private void UpdateWeightLabel(TMP_Text label, float normalizedValue)
+    {
+        if (label == null)
+        {
+            return;
+        }
+
+        label.text = $"{Mathf.RoundToInt(normalizedValue * 50f)}%";
+    }
 }
