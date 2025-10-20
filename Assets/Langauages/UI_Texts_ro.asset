@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 66424135680
-    m_Localized: "\u021Aara rezident\u0103"
+    m_Localized: "\u021Aara de rezident"
     m_Metadata:
       m_Items: []
   - m_Id: 94047383560
@@ -227,7 +227,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823040
-    m_Localized: "Selecta\u021Bi Religie"
+    m_Localized: "Selecta\u021Bi religia"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823041
@@ -235,7 +235,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823042
-    m_Localized: Urbanism (%)
+    m_Localized: Urbanitate (%)
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823043
@@ -243,7 +243,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823044
-    m_Localized: "Trimite\u021Bi"
+    m_Localized: Trimite
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823045
@@ -259,13 +259,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130793017344
-    m_Localized: "Selecta\u021Bi preferin\u021Bele dvs. de mai jos pentru a g\u0103si
+    m_Localized: "Selecta\u021Bi-v\u0103 preferin\u021Bele mai jos pentru a g\u0103si
       cele mai bune \u021B\u0103ri pentru relocare \xEEn func\u021Bie de clim\u0103,
       cultur\u0103, costul vie\u021Bii \u0219i multe altele."
     m_Metadata:
       m_Items: []
   - m_Id: 2130793017345
-    m_Localized: "Preferin\u021Bele pentru relocarea refugia\u021Bilor"
+    m_Localized: "Preferin\u021Be privind relocarea refugia\u021Bilor"
     m_Metadata:
       m_Items: []
   - m_Id: 655850627215360
@@ -277,11 +277,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086924152832
-    m_Localized: "Selecta\u021Bi Limb\u0103"
+    m_Localized: "Selecta\u021Bi limba"
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124352
-    m_Localized: "englez\u0103"
+    m_Localized: "Englez\u0103"
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124353
@@ -301,7 +301,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318657
-    m_Localized: "olandez\u0103"
+    m_Localized: "Olandez\u0103"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318658
@@ -313,11 +313,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318660
-    m_Localized: "greac\u0103"
+    m_Localized: "Greac\u0103"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318661
-    m_Localized: "maghiar\u0103"
+    m_Localized: "Maghiar\u0103"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318662
@@ -329,19 +329,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318664
-    m_Localized: "portughez\u0103"
+    m_Localized: "Portughez\u0103"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318665
-    m_Localized: "rom\xE2n\u0103"
+    m_Localized: "Rom\xE2n\u0103"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318666
-    m_Localized: "rus\u0103"
+    m_Localized: "Rus\u0103"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318667
-    m_Localized: "spaniol\u0103"
+    m_Localized: "Spaniol\u0103"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318668
@@ -353,7 +353,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3975769477427200
-    m_Localized: "Informa\u021Bii despre \u021Bara selectat\u0103"
+    m_Localized: "Informa\u021Bii despre \u021B\u0103rile selectate"
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957314
@@ -361,7 +361,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957315
-    m_Localized: Urbanism
+    m_Localized: "Urban\u0103"
     m_Metadata:
       m_Items: []
   - m_Id: 3998036974448640
@@ -405,7 +405,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4334128114249728
-    m_Localized: "G\u0103si\u021Bi o via\u021B\u0103 nou\u0103"
+    m_Localized: "G\u0103se\u0219te o via\u021B\u0103 nou\u0103"
     m_Metadata:
       m_Items: []
   - m_Id: 20909793336700928
@@ -413,13 +413,17 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 63732147523977216
-    m_Localized: "1. Preferin\u021Be de intrare\n\n2. Vizualiza\u021Bi rezultatele
+    m_Localized: "1. Preferin\u021Be de introducere\n\n2. Vizualiza\u021Bi rezultatele
       \u0219i ajusta\u021Bi datele pentru a vedea rezultate noi\n\n3. Selecta\u021Bi
       o \u021Bar\u0103 pentru a afla mai multe"
     m_Metadata:
       m_Items: []
   - m_Id: 63735601625595904
     m_Localized: AJUTOR!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89749667468795904
+    m_Localized: "\xCEncepe\u021Bi"
     m_Metadata:
       m_Items: []
   references:

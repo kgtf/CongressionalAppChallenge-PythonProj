@@ -422,6 +422,10 @@ MonoBehaviour:
     m_Localized: "\xA1AYUDA!"
     m_Metadata:
       m_Items: []
+  - m_Id: 89749667468795904
+    m_Localized: Empezar
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

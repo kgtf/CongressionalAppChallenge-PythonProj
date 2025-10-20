@@ -227,7 +227,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823040
-    m_Localized: "Vyberte N\xE1bo\u017Eenstv\xED"
+    m_Localized: "Vyberte n\xE1bo\u017Eenstv\xED"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823041
@@ -235,11 +235,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823042
-    m_Localized: Urbanness (%)
+    m_Localized: "M\u011Bstskost (%)"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823043
-    m_Localized: "vzd\xE1lenost (km)"
+    m_Localized: "Vzd\xE1lenost (km)"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823044
@@ -259,9 +259,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130793017344
-    m_Localized: "N\xED\u017Ee vyberte sv\xE9 preference a najd\u011Bte nejlep\u0161\xED
+    m_Localized: "Vyberte si n\xED\u017Ee sv\xE9 preference a najd\u011Bte nejlep\u0161\xED
       zem\u011B pro p\u0159es\xEDdlen\xED na z\xE1klad\u011B klimatu, kultury, \u017Eivotn\xEDch
-      n\xE1klad\u016F a dal\u0161\xEDch."
+      n\xE1klad\u016F a dal\u0161\xEDch faktor\u016F."
     m_Metadata:
       m_Items: []
   - m_Id: 2130793017345
@@ -277,7 +277,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086924152832
-    m_Localized: Vyberte Jazyk
+    m_Localized: Vyberte jazyk
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124352
@@ -289,7 +289,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124354
-    m_Localized: "katal\xE1n\u0161tina"
+    m_Localized: "Katal\xE1n\u0161tina"
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124355
@@ -353,7 +353,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3975769477427200
-    m_Localized: "Informace o vybran\xE9 zemi"
+    m_Localized: "Informace o vybran\xFDch zem\xEDch"
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957314
@@ -361,7 +361,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957315
-    m_Localized: Urbanness
+    m_Localized: "M\u011Bstskost"
     m_Metadata:
       m_Items: []
   - m_Id: 3998036974448640
@@ -385,7 +385,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4322348759592960
-    m_Localized: "arm\xE9nsk\xFD"
+    m_Localized: "Arm\xE9n\u0161tina"
     m_Metadata:
       m_Items: []
   - m_Id: 4324183075532800
@@ -413,13 +413,17 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 63732147523977216
-    m_Localized: "1. P\u0159edvolby zad\xE1v\xE1n\xED\n\n2. Zobrazte v\xFDsledky
-      a upravte data, abyste vid\u011Bli nov\xE9 v\xFDsledky\n\n3. Chcete-li se dozv\u011Bd\u011Bt
-      v\xEDce, vyberte zemi"
+    m_Localized: "1. P\u0159edvolby zad\xE1v\xE1n\xED\n\n2. Zobrazen\xED v\xFDsledk\u016F
+      a \xFAprava dat pro zobrazen\xED nov\xFDch v\xFDsledk\u016F\n\n3. Vyberte zemi
+      pro v\xEDce informac\xED"
     m_Metadata:
       m_Items: []
   - m_Id: 63735601625595904
     m_Localized: POMOC!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89749667468795904
+    m_Localized: "Za\u010D\xEDt"
     m_Metadata:
       m_Items: []
   references:

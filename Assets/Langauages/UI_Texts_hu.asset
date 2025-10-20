@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 66424135680
-    m_Localized: "Rezidens orsz\xE1g"
+    m_Localized: "Lak\xF3hely szerinti orsz\xE1g"
     m_Metadata:
       m_Items: []
   - m_Id: 94047383560
@@ -51,7 +51,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 94047383567
-    m_Localized: "Bosznia \xE9s Hercegovina"
+    m_Localized: Bosznia-Hercegovina
     m_Metadata:
       m_Items: []
   - m_Id: 94051577856
@@ -227,7 +227,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823040
-    m_Localized: "V\xE1lassza a Vall\xE1s lehet\u0151s\xE9get"
+    m_Localized: "V\xE1lasszon vall\xE1st"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823041
@@ -243,7 +243,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823044
-    m_Localized: "Bek\xFCld"
+    m_Localized: "K\xFCld\xE9s"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823045
@@ -259,13 +259,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130793017344
-    m_Localized: "V\xE1lassza ki a preferenci\xE1it al\xE1bb, hogy megtal\xE1lja
-      a legmegfelel\u0151bb orsz\xE1gokat az \xE1ttelep\xEDt\xE9shez az \xE9ghajlat,
-      a kult\xFAra, a meg\xE9lhet\xE9si k\xF6lts\xE9gek \xE9s egyebek alapj\xE1n."
+    m_Localized: "V\xE1lassza ki az al\xE1bbi preferenci\xE1it, hogy megtal\xE1lja
+      a legjobb orsz\xE1gokat az \xE1ttelep\xEDt\xE9shez az \xE9ghajlat, a kult\xFAra,
+      a meg\xE9lhet\xE9si k\xF6lts\xE9gek \xE9s egyebek alapj\xE1n."
     m_Metadata:
       m_Items: []
   - m_Id: 2130793017345
-    m_Localized: "Menek\xFCltek \xE1ttelep\xEDt\xE9si preferenci\xE1i"
+    m_Localized: "Menek\xFCltek letelep\xEDt\xE9si preferenci\xE1i"
     m_Metadata:
       m_Items: []
   - m_Id: 655850627215360
@@ -277,7 +277,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086924152832
-    m_Localized: "V\xE1lassza a Nyelv lehet\u0151s\xE9get"
+    m_Localized: "Nyelv kiv\xE1laszt\xE1sa"
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124352
@@ -353,7 +353,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3975769477427200
-    m_Localized: "A kiv\xE1lasztott orsz\xE1g adatai"
+    m_Localized: "Kiv\xE1lasztott orsz\xE1ginform\xE1ci\xF3k"
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957314
@@ -389,7 +389,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4324183075532800
-    m_Localized: rendelkezik
+    m_Localized: van
     m_Metadata:
       m_Items: []
   - m_Id: 4324183075532801
@@ -405,7 +405,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4334128114249728
-    m_Localized: "Tal\xE1lj \xFAj \xE9letet"
+    m_Localized: "Tal\xE1lj egy \xFAj \xE9letet"
     m_Metadata:
       m_Items: []
   - m_Id: 20909793336700928
@@ -413,13 +413,17 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 63732147523977216
-    m_Localized: "1. Beviteli be\xE1ll\xEDt\xE1sok\n\n2. Tekintse meg az eredm\xE9nyeket,
-      \xE9s m\xF3dos\xEDtsa az adatokat az \xFAj eredm\xE9nyek megtekint\xE9s\xE9hez\n\n3.
-      Tov\xE1bbi inform\xE1ci\xF3\xE9rt v\xE1lasszon egy orsz\xE1got"
+    m_Localized: "1. Beviteli be\xE1ll\xEDt\xE1sok\n\n2. Eredm\xE9nyek megtekint\xE9se
+      \xE9s adatok m\xF3dos\xEDt\xE1sa az \xFAj eredm\xE9nyek megtekint\xE9s\xE9hez\n\n3.
+      Tov\xE1bbi inform\xE1ci\xF3k\xE9rt v\xE1lasszon ki egy orsz\xE1got"
     m_Metadata:
       m_Items: []
   - m_Id: 63735601625595904
     m_Localized: "SEG\xCDTS\xC9G!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89749667468795904
+    m_Localized: "Kezd\xE9s"
     m_Metadata:
       m_Items: []
   references:

@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 66424135680
-    m_Localized: Bosatt land
+    m_Localized: Bostadsland
     m_Metadata:
       m_Items: []
   - m_Id: 94047383560
@@ -223,11 +223,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 94055772175
-    m_Localized: katolik
+    m_Localized: katolska
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823040
-    m_Localized: "V\xE4lj Religion"
+    m_Localized: "V\xE4lj religion"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823041
@@ -265,7 +265,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130793017345
-    m_Localized: "Inst\xE4llningar f\xF6r vidarebos\xE4ttning av flyktingar"
+    m_Localized: "Preferenser f\xF6r vidarebos\xE4ttning av flyktingar"
     m_Metadata:
       m_Items: []
   - m_Id: 655850627215360
@@ -277,19 +277,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086924152832
-    m_Localized: "V\xE4lj Spr\xE5k"
+    m_Localized: "V\xE4lj spr\xE5k"
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124352
-    m_Localized: engelska
+    m_Localized: Engelska
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124353
-    m_Localized: bulgariska
+    m_Localized: Bulgariska
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124354
-    m_Localized: katalanska
+    m_Localized: Katalanska
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124355
@@ -297,7 +297,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318656
-    m_Localized: danska
+    m_Localized: Danska
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318657
@@ -309,43 +309,43 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318659
-    m_Localized: tyska
+    m_Localized: Tyska
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318660
-    m_Localized: grekiska
+    m_Localized: Grekiska
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318661
-    m_Localized: ungerska
+    m_Localized: Ungerska
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318662
-    m_Localized: italienska
+    m_Localized: Italienska
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318663
-    m_Localized: polska
+    m_Localized: Polska
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318664
-    m_Localized: portugisiska
+    m_Localized: Portugisiska
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318665
-    m_Localized: "rum\xE4nska"
+    m_Localized: "Rum\xE4nska"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318666
-    m_Localized: ryska
+    m_Localized: Ryska
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318667
-    m_Localized: spanska
+    m_Localized: Spanska
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318668
-    m_Localized: svenska
+    m_Localized: Svenska
     m_Metadata:
       m_Items: []
   - m_Id: 3246634084978688
@@ -353,7 +353,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3975769477427200
-    m_Localized: Information om valt land
+    m_Localized: Information om vald land
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957314
@@ -361,7 +361,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957315
-    m_Localized: Urbanism
+    m_Localized: Urbanitet
     m_Metadata:
       m_Items: []
   - m_Id: 3998036974448640
@@ -385,7 +385,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4322348759592960
-    m_Localized: armeniska
+    m_Localized: Armeniska
     m_Metadata:
       m_Items: []
   - m_Id: 4324183075532800
@@ -413,12 +413,16 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 63732147523977216
-    m_Localized: "1. Inmatningsinst\xE4llningar\n\n2. Visa resultat och justera data
-      f\xF6r att se nya resultat\n\n3. V\xE4lj ett land om du vill veta mer"
+    m_Localized: "1. Ange inst\xE4llningar\n\n2. Visa resultat och justera data f\xF6r
+      att se nya resultat\n\n3. V\xE4lj ett land f\xF6r att l\xE4sa mer"
     m_Metadata:
       m_Items: []
   - m_Id: 63735601625595904
     m_Localized: "HJ\xC4LP!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89749667468795904
+    m_Localized: "Kom ig\xE5ng"
     m_Metadata:
       m_Items: []
   references:

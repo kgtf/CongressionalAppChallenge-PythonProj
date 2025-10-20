@@ -423,6 +423,10 @@ MonoBehaviour:
     m_Key: HELP!
     m_Metadata:
       m_Items: []
+  - m_Id: 89749667468795904
+    m_Key: 'Get Started '
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

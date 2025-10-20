@@ -227,7 +227,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823040
-    m_Localized: "V\xE6lg Religion"
+    m_Localized: "V\xE6lg religion"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823041
@@ -247,7 +247,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823045
-    m_Localized: Varmt
+    m_Localized: Varm
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823046
@@ -280,47 +280,47 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124352
-    m_Localized: engelsk
+    m_Localized: Engelsk
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124353
-    m_Localized: bulgarsk
+    m_Localized: Bulgarsk
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124354
-    m_Localized: catalansk
+    m_Localized: Catalansk
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124355
-    m_Localized: tjekkisk
+    m_Localized: Tjekkisk
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318656
-    m_Localized: dansk
+    m_Localized: Dansk
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318657
-    m_Localized: hollandsk
+    m_Localized: Hollandsk
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318658
-    m_Localized: fransk
+    m_Localized: Fransk
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318659
-    m_Localized: tysk
+    m_Localized: Tysk
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318660
-    m_Localized: "gr\xE6sk"
+    m_Localized: "Gr\xE6sk"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318661
-    m_Localized: ungarsk
+    m_Localized: Ungarsk
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318662
-    m_Localized: italiensk
+    m_Localized: Italiensk
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318663
@@ -328,23 +328,23 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318664
-    m_Localized: portugisisk
+    m_Localized: Portugisisk
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318665
-    m_Localized: "rum\xE6nsk"
+    m_Localized: "Rum\xE6nsk"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318666
-    m_Localized: russisk
+    m_Localized: Russisk
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318667
-    m_Localized: spansk
+    m_Localized: Spansk
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318668
-    m_Localized: svensk
+    m_Localized: Svensk
     m_Metadata:
       m_Items: []
   - m_Id: 3246634084978688
@@ -376,7 +376,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4002147342036992
-    m_Localized: serbisk
+    m_Localized: Serbisk
     m_Metadata:
       m_Items: []
   - m_Id: 4319164972478464
@@ -384,7 +384,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4322348759592960
-    m_Localized: armensk
+    m_Localized: Armensk
     m_Metadata:
       m_Items: []
   - m_Id: 4324183075532800
@@ -408,16 +408,20 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20909793336700928
-    m_Localized: ukrainsk
+    m_Localized: Ukrainsk
     m_Metadata:
       m_Items: []
   - m_Id: 63732147523977216
-    m_Localized: "1. Indtastningspr\xE6ferencer\n\n2. Se resultater og juster data
-      for at se nye resultater\n\n3. V\xE6lg et land for at f\xE5 mere at vide"
+    m_Localized: "1. Indtast pr\xE6ferencer\n\n2. Se resultater og juster data for
+      at se nye resultater\n\n3. V\xE6lg et land for at f\xE5 mere at vide"
     m_Metadata:
       m_Items: []
   - m_Id: 63735601625595904
     m_Localized: "HJ\xC6LP!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89749667468795904
+    m_Localized: Kom i gang
     m_Metadata:
       m_Items: []
   references:

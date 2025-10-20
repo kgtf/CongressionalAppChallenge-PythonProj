@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 66424135680
-    m_Localized: "Pa\xEDs Resident"
+    m_Localized: "Pa\xEDs de resid\xE8ncia"
     m_Metadata:
       m_Items: []
   - m_Id: 94047383560
@@ -67,7 +67,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 94051577859
-    m_Localized: Txeca
+    m_Localized: "Tx\xE8quia"
     m_Metadata:
       m_Items: []
   - m_Id: 94051577860
@@ -223,11 +223,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 94055772175
-    m_Localized: "cat\xF2lica"
+    m_Localized: "cat\xF2lic"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823040
-    m_Localized: "Seleccioneu Religi\xF3"
+    m_Localized: "Selecciona la religi\xF3"
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823041
@@ -235,7 +235,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823042
-    m_Localized: Urbanisme (%)
+    m_Localized: Urbanitat (%)
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823043
@@ -243,7 +243,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823044
-    m_Localized: Envia
+    m_Localized: Enviar
     m_Metadata:
       m_Items: []
   - m_Id: 2130788823045
@@ -260,8 +260,8 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2130793017344
     m_Localized: "Seleccioneu les vostres prefer\xE8ncies a continuaci\xF3 per trobar
-      els millors pa\xEFsos per al reassentament segons el clima, la cultura, el
-      cost de la vida i molt m\xE9s."
+      els millors pa\xEFsos per al reassentament en funci\xF3 del clima, la cultura,
+      el cost de la vida i m\xE9s."
     m_Metadata:
       m_Items: []
   - m_Id: 2130793017345
@@ -269,7 +269,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 655850627215360
-    m_Localized: cristianisme
+    m_Localized: Cristianisme
     m_Metadata:
       m_Items: []
   - m_Id: 656712556687360
@@ -277,7 +277,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086924152832
-    m_Localized: Seleccioneu Idioma
+    m_Localized: Selecciona l'idioma
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124352
@@ -285,59 +285,59 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124353
-    m_Localized: "b\xFAlgar"
+    m_Localized: "B\xFAlgar"
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124354
-    m_Localized: "catal\xE0"
+    m_Localized: "Catal\xE0"
     m_Metadata:
       m_Items: []
   - m_Id: 990086945124355
-    m_Localized: txec
+    m_Localized: Txec
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318656
-    m_Localized: "dan\xE8s"
+    m_Localized: "Dan\xE8s"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318657
-    m_Localized: "holand\xE8s"
+    m_Localized: "neerland\xE8s"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318658
-    m_Localized: "franc\xE8s"
+    m_Localized: "Franc\xE8s"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318659
-    m_Localized: alemany
+    m_Localized: Alemany
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318660
-    m_Localized: grec
+    m_Localized: Grec
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318661
-    m_Localized: "hongar\xE8s"
+    m_Localized: "Hongar\xE8s"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318662
-    m_Localized: "itali\xE0"
+    m_Localized: "Itali\xE0"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318663
-    m_Localized: "polon\xE8s"
+    m_Localized: "Polon\xE8s"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318664
-    m_Localized: "portugu\xE8s"
+    m_Localized: "Portugu\xE8s"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318665
-    m_Localized: "roman\xE8s"
+    m_Localized: "Roman\xE8s"
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318666
-    m_Localized: rus
+    m_Localized: Rus
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318667
@@ -345,11 +345,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 990086949318668
-    m_Localized: suec
+    m_Localized: Suec
     m_Metadata:
       m_Items: []
   - m_Id: 3246634084978688
-    m_Localized: Benvingut
+    m_Localized: Benvingut/da
     m_Metadata:
       m_Items: []
   - m_Id: 3975769477427200
@@ -361,7 +361,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3996827202957315
-    m_Localized: Urbanisme
+    m_Localized: Urbanesa
     m_Metadata:
       m_Items: []
   - m_Id: 3998036974448640
@@ -385,7 +385,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4322348759592960
-    m_Localized: armeni
+    m_Localized: Armeni
     m_Metadata:
       m_Items: []
   - m_Id: 4324183075532800
@@ -414,12 +414,16 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 63732147523977216
     m_Localized: "1. Prefer\xE8ncies d'entrada\n\n2. Visualitza els resultats i ajusta
-      les dades per veure resultats nous\n\n3. Seleccioneu un pa\xEDs per obtenir
-      m\xE9s informaci\xF3"
+      les dades per veure'n de nous\n\n3. Selecciona un pa\xEDs per obtenir m\xE9s
+      informaci\xF3"
     m_Metadata:
       m_Items: []
   - m_Id: 63735601625595904
     m_Localized: AJUDA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89749667468795904
+    m_Localized: "Comen\xE7ar"
     m_Metadata:
       m_Items: []
   references:
