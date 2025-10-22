@@ -426,6 +426,18 @@ MonoBehaviour:
     m_Localized: Empezar
     m_Metadata:
       m_Items: []
+  - m_Id: 90229947282083840
+    m_Localized: "M\xE1s informaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659584
+    m_Localized: Importancia de los factores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659585
+    m_Localized: "\xBFQu\xE9 importancia tiene para usted cada factor?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

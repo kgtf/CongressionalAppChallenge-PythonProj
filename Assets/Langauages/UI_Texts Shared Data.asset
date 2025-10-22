@@ -427,6 +427,18 @@ MonoBehaviour:
     m_Key: 'Get Started '
     m_Metadata:
       m_Items: []
+  - m_Id: 90229947282083840
+    m_Key: Learn More
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659584
+    m_Key: Factor Importance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659585
+    m_Key: How important is each factor to you?
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

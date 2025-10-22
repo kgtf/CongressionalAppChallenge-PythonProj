@@ -426,6 +426,18 @@ MonoBehaviour:
     m_Localized: "\xCEncepe\u021Bi"
     m_Metadata:
       m_Items: []
+  - m_Id: 90229947282083840
+    m_Localized: "Afl\u0103 mai multe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659584
+    m_Localized: "Importan\u021Ba factorului"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659585
+    m_Localized: "C\xE2t de important este fiecare factor pentru tine?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

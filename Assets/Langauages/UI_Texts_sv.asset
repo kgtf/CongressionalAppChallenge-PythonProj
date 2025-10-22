@@ -425,6 +425,18 @@ MonoBehaviour:
     m_Localized: "Kom ig\xE5ng"
     m_Metadata:
       m_Items: []
+  - m_Id: 90229947282083840
+    m_Localized: "L\xE4s mer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659584
+    m_Localized: Faktorens betydelse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659585
+    m_Localized: "Hur viktig \xE4r varje faktor f\xF6r dig?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

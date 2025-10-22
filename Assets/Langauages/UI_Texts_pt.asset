@@ -425,6 +425,18 @@ MonoBehaviour:
     m_Localized: "Come\xE7ar"
     m_Metadata:
       m_Items: []
+  - m_Id: 90229947282083840
+    m_Localized: Saber mais
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659584
+    m_Localized: "Import\xE2ncia do Fator"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659585
+    m_Localized: "Qu\xE3o importante \xE9 cada fator para voc\xEA?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

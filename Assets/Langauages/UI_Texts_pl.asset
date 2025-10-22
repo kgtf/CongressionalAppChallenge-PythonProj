@@ -426,6 +426,18 @@ MonoBehaviour:
     m_Localized: Zacznij
     m_Metadata:
       m_Items: []
+  - m_Id: 90229947282083840
+    m_Localized: "Dowiedz si\u0119 wi\u0119cej"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659584
+    m_Localized: Znaczenie czynnika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659585
+    m_Localized: "Jak wa\u017Cne s\u0105 dla Ciebie poszczeg\xF3lne czynniki?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

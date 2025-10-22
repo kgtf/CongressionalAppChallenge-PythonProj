@@ -424,6 +424,18 @@ MonoBehaviour:
     m_Localized: Kom i gang
     m_Metadata:
       m_Items: []
+  - m_Id: 90229947282083840
+    m_Localized: "L\xE6r mere"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659584
+    m_Localized: Faktorens betydning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659585
+    m_Localized: Hvor vigtig er hver faktor for dig?
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

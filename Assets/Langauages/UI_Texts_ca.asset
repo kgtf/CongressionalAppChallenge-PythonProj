@@ -426,6 +426,18 @@ MonoBehaviour:
     m_Localized: "Comen\xE7ar"
     m_Metadata:
       m_Items: []
+  - m_Id: 90229947282083840
+    m_Localized: "M\xE9s informaci\xF3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659584
+    m_Localized: "Import\xE0ncia del factor"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659585
+    m_Localized: "Quina import\xE0ncia t\xE9 cada factor per a tu?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

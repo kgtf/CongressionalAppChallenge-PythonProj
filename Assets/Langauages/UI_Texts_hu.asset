@@ -426,6 +426,18 @@ MonoBehaviour:
     m_Localized: "Kezd\xE9s"
     m_Metadata:
       m_Items: []
+  - m_Id: 90229947282083840
+    m_Localized: "Tudj meg t\xF6bbet"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659584
+    m_Localized: "Faktor fontoss\xE1ga"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659585
+    m_Localized: "Mennyire fontos sz\xE1modra az egyes t\xE9nyez\u0151k?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

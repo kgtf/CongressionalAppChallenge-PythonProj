@@ -426,6 +426,18 @@ MonoBehaviour:
     m_Localized: "Za\u010D\xEDt"
     m_Metadata:
       m_Items: []
+  - m_Id: 90229947282083840
+    m_Localized: "Zjist\u011Bte v\xEDce"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659584
+    m_Localized: "D\u016Fle\u017Eitost faktoru"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659585
+    m_Localized: "Jak d\u016Fle\u017Eit\xFD je pro v\xE1s ka\u017Ed\xFD faktor?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

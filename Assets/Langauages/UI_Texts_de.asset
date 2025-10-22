@@ -425,6 +425,18 @@ MonoBehaviour:
     m_Localized: Erste Schritte
     m_Metadata:
       m_Items: []
+  - m_Id: 90229947282083840
+    m_Localized: Mehr erfahren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659584
+    m_Localized: Faktor Bedeutung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230965390659585
+    m_Localized: Wie wichtig ist Ihnen jeder Faktor?
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
