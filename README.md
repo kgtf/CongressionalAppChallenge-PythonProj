@@ -10,11 +10,15 @@ NewRoots was inspired by a Model UN project focused on refugee resettlement duri
 
 The goal was to create a tool that could compare European countries using user preferences while remaining accessible to people from different backgrounds and language groups.
 
-<img width="2280" height="1080" alt="Screenshot_20250227-143434_New Roots" src="https://github.com/user-attachments/assets/bcee0d59-d6c4-4de3-b6c4-34615f3d8d01" /><img width="2280" height="1080" alt="Screenshot_20250227-143604_New Roots" src="https://github.com/user-attachments/assets/e0f39b79-aae5-4e86-a0ca-9240e5b14d87" />
-<img width="2280" height="1080" alt="Screenshot_20250227-143551_New Roots" src="https://github.com/user-attachments/assets/1b3ed702-7fd0-4843-b080-fea77dbffbbf" />
-<img width="2280" height="1080" alt="Screenshot_20250227-143533_New Roots" src="https://github.com/user-attachments/assets/da5dafed-ed73-440d-a3ab-af2d570b4660" />
-<img width="2280" height="1080" alt="Screenshot_20250227-143520_New Roots" src="https://github.com/user-attachments/assets/2d22c07f-8276-44d5-ad74-001c89f6822a" />
-<img width="2280" height="1080" alt="Screenshot_20250227-143458_New Roots" src="https://github.com/user-attachments/assets/69aa33f9-f036-475d-ad1e-7ab39e8df06b" />
+<img width="1202" height="632" alt="Screenshot 2026-09-14 at 7 57 00 PM" src="https://github.com/user-attachments/assets/69b6175a-a7bd-4e98-9ecd-ce4736ed3f13" />
+<img width="1202" height="632" alt="Screenshot 2026-09-14 at 7 56 57 PM" src="https://github.com/user-attachments/assets/534ad9bf-c476-4576-8c4d-0e1bdbfc9c8c" />
+<img width="1202" height="632" alt="Screenshot 2026-09-14 at 7 56 50 PM" src="https://github.com/user-attachments/assets/8b2fcfbb-26cc-4276-856c-fd07e9b39e0d" />
+<img width="1202" height="632" alt="Screenshot 2026-09-14 at 7 56 35 PM" src="https://github.com/user-attachments/assets/c8baca44-e5b2-44fd-adae-7466e1586083" />
+<img width="1202" height="632" alt="Screenshot 2026-09-14 at 7 56 25 PM" src="https://github.com/user-attachments/assets/f42d9ea7-feb0-4aa1-8867-323f2bdf87fe" />
+<img width="1202" height="632" alt="Screenshot 2026-09-14 at 7 57 25 PM" src="https://github.com/user-attachments/assets/baa8d59a-2e0c-4a9f-95b7-07667654f27c" />
+<img width="1202" height="632" alt="Screenshot 2026-09-14 at 7 57 17 PM" src="https://github.com/user-attachments/assets/f76b078b-1ccf-4d40-b81c-5bd310feda05" />
+<img width="1202" height="632" alt="Screenshot 2026-09-14 at 7 57 09 PM" src="https://github.com/user-attachments/assets/b930e44c-8a6a-4ba9-af44-5d4f09bcc67f" />
+
 ## Features
 
 * Interactive map of Europe
