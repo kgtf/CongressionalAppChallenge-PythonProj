@@ -2,7 +2,7 @@
 
 NewRoots is a cross-platform Unity application that helps users compare European countries based on personal preferences and practical factors relevant to relocation.
 
-The project was developed collaboratively by [Krish]([url](https://github.com/kgtf)), [Aarav]([url](https://github.com/APcool-dot)), and [Ian]([url](https://github.com/IanBarrey)) for the PA Media & Design Competition. We spent approximately **210 hours** planning, developing, testing, and refining the application.
+The project was developed collaboratively by [https://github.com/kgtf](kgtf), [Aarav]([[url](https://github.com/APcool-dot)]), and [Ian]([url](https://github.com/IanBarrey)) for the PA Media & Design Competition. We spent approximately **210 hours** planning, developing, testing, and refining the application.
 
 ## Overview
 
